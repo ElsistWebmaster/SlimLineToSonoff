@@ -1,0 +1,14 @@
+﻿	(******************************)
+	(*                            *)
+	(*     EXPORTED VARIABLES     *)
+	(*                            *)
+	(******************************)
+
+        VAR_GLOBAL
+	{G:"Variables"}
+Di00CPU AT %IX255.0 : BOOL;
+Do00CPU AT %QX255.0 : BOOL;
+Do01CPU AT %QX255.1 : BOOL;
+Di01CPU AT %IX255.1 : BOOL;
+	END_VAR
+
